@@ -1,0 +1,19 @@
+CLI commands to be executed in the exercise_N folder:
+(Assuming Java and Maven are installed and in the systems PATH variable.)
+
+Exercise 0:
+
+javac *.java
+jar cfm hello.jar MANIFEST.MF *.class
+java -jar hello.jar
+
+Exercise 1:
+
+javac *.java
+jar cfm EvenOdds.jar MANIFEST.MF *.class
+java -jar EvenOdds.jar
+
+Exercise 2:
+
+mvn package
+java -jar ./target/exercise_2-1.0-SNAPSHOT.jar
